@@ -25,6 +25,7 @@ import {
   PlaylistAdd as PlaylistAddIcon,
   ShoppingCart,
 } from "@mui/icons-material";
+import DataExplorationSharpIcon from '@mui/icons-material/DataExplorationSharp';
 
 import InputAdornment from "@mui/material/InputAdornment";
 import SearchIcon from "@mui/icons-material/Search";
@@ -50,6 +51,8 @@ const Navbar = ({ open, setOpen }) => {
     { text: "Home", link: "/", icon: <HomeIcon />, type: "route" },
     { text: "Coffee", link: "#coffee", icon: <CoffeeIcon />, type: "anchor" },
     // { text: "Add Item", link: "/newitem", icon: <PlaylistAddIcon />, type: "route" },
+    { text: "Coffee Stats", link: "/stats", icon: <DataExplorationSharpIcon />, type: "route" },
+
   ];
 
   const drawerContent = (

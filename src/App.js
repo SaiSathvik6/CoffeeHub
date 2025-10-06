@@ -9,6 +9,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Order from './components/Order';
 import { CartProvider } from './components/CartContext';
 import Layout from './components/Layout';
+import CoffeeStats from './components/CoffeeStats';
+
 
 const App = () => {
   return (
@@ -29,6 +31,7 @@ const App = () => {
                 />
                 <Route path="/newitem" element={<AddNewItem />} />
                 <Route path="/orders" element={<Order />} />
+                <Route path="/stats" element={<CoffeeStats /> } />
               </Route>
             </Routes>
           </ThemeProvider>

@@ -12,6 +12,7 @@ const products = [
         image: Espresso,
         price: 5.99,
         description: "A strong and bold espresso shot to kickstart your day.",
+        itemsSold: 34,
     },
     {
         id: 2,
@@ -19,6 +20,7 @@ const products = [
         image: Latte,
         price: 6.99,
         description: "A creamy cappuccino with a perfect blend of espresso and milk foam.",
+        itemsSold: 10,
     },
     {
         id: 3,
@@ -26,6 +28,7 @@ const products = [
         image: ColdBrew,
         price: 7.49,
         description: "A smooth and creamy latte made with steamed milk and espresso.",
+        itemsSold: 87,
     },
     {
         id: 4,
@@ -33,6 +36,7 @@ const products = [
         description: "Light roast with floral and citrus notes",
         price: 14.99,
         image: Ethiopian,
+        itemsSold: 64,
     },
     {
         id: 5,
@@ -40,6 +44,7 @@ const products = [
         description: "Full body, chocolate & nutty tones",
         price: 12.49,
         image: Colombian,
+        itemsSold: 23,
     },
     {
         id: 6,
@@ -47,6 +52,7 @@ const products = [
         description: "Balanced, smoky & chocolaty",
         price: 15.00,
         image: Gautemal,
+        itemsSold: 45,
     }
 ];
 
