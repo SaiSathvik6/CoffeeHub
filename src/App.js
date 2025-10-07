@@ -10,6 +10,7 @@ import Order from './components/Order';
 import { CartProvider } from './components/CartContext';
 import Layout from './components/Layout';
 import CoffeeStats from './components/CoffeeStats';
+import Payment from './components/Payment';
 
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
                 <Route path="/newitem" element={<AddNewItem />} />
                 <Route path="/orders" element={<Order />} />
                 <Route path="/stats" element={<CoffeeStats /> } />
+                <Route path='/payment' element={<Payment />} />
               </Route>
             </Routes>
           </ThemeProvider>
