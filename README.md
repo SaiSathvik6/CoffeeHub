@@ -43,7 +43,7 @@ Built with **React**, **Material-UI**, and **React Context API** for global stat
 
 | Category | Technology |
 |-----------|-------------|
-| Frontend | **React (Vite or CRA)** |
+| Frontend | **React (CRA)** |
 | UI Library | **Material-UI (MUI)** |
 | State Management | **React Context API** |
 | Routing | **React Router DOM** |
